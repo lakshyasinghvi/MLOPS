@@ -9,7 +9,7 @@ from keras.utils import np_utils
 import keras
 import sys
 
-sys.stdin=open('/mlops/input.txt','r')
+sys.stdin=open('/root/mlops/input.txt','r')
 
 (x_train, y_train), (x_test, y_test)  = mnist.load_data()
 
